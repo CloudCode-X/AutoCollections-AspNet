@@ -2,12 +2,12 @@
 {
     public class ItemCarrinho
     {
-        public int IdCarrinho { get; set; }
+        public required int IdCarrinho { get; set; }
 
-        public int IdCliente { get; set; }
+        public required int IdCliente { get; set; }
 
-        public int IdProduto { get; set; }
+        public required int IdProduto { get; set; }
 
-        public int QuantidadeProduto { get; set; }
+        public required int QuantidadeProduto { get; set; }
     }
 }

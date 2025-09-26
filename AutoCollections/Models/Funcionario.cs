@@ -2,6 +2,6 @@
 {
     public class Funcionario
     {
-        public int nivelDeAcesso {  get; set; }
+        public required int nivelDeAcesso {  get; set; }
     }
 }
